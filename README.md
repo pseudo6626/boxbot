@@ -2,7 +2,7 @@
 
 This code should allow for a localized instance of the Boxbot Discord bot as seen on the FleetCom server during Shoulder of Orion event as well as on the OASIS server. To set it up, complete the following:
 
-1) Download the code from this repository.  Due to file size, only one of the 30 brewer gifs is in this repo. The rest can be found here:
+1) Download the code from this repository.  Due to file size, only one of the 30 brewer gifs is in this repo. The rest can be found here: https://drive.google.com/drive/folders/1GDhVD8p7M-6D7JD5Bg407DxCXK4zOfeW?usp=sharing
 2) Open the boxbotMain.py file in your preferred IDE, I can confirm compatability with Visual Studio Code. Edit lines 38 and 41-47 for your discord and systems.
 3) Create an account if you dont already have one with http://discord.com/developers and create a new bot. Be sure to give it permissions for all the priviledge gateway intents. This is where you will get the client secret.
 4) Next, make an account to access the giphy API here: https://developers.giphy.com/     this is where you will get your giphy api key
@@ -18,7 +18,7 @@ Below are all of the available commands and what they do:
 
 **/shop-local** This command searches either the markets found in the market leaderboard for a user supplied commodity or all markets within a user supplied radius of ORIGIN_SYSTEM. Has filters for pad size and orbital vs planetary and provides inara link for markets. 
 
-**/ops**  This is a complete ecosystem for automatically maintaining and coordinating colonization chain/expidition opporations. First, fill out a copy of this google sheet template:     Next, get its document id from the url and a user with the AUTHORIZED_ROLE_ID role runs /register-op and provides the doc id as well as some basic info for the operation. Once this is done, the expidition will appear when /ops is called and users can sign up for the opperation and do things like mark FCs as empty or full (will DM the fc owners of the change), mark current systems as complete or that the beacon is deployed, etc. 
+**/ops**  This is a complete ecosystem for automatically maintaining and coordinating colonization chain/expidition opporations. First, fill out a copy of this google sheet template:  https://docs.google.com/spreadsheets/d/117bev02d2A7X3TaXVSxKBwBKd5GWtyVaGcHhAV7-xwA/copy   Next, get its document id from the url and a user with the AUTHORIZED_ROLE_ID role runs /register-op and provides the doc id as well as some basic info for the operation. Once this is done, the expidition will appear when /ops is called and users can sign up for the opperation and do things like mark FCs as empty or full (will DM the fc owners of the change), mark current systems as complete or that the beacon is deployed, etc. 
 
 **howis-fc and whereis-fc** uses ardent-industries and spansh api to find the location and market conditions of any FC given its callsign and returns the info and when the info was last updated. 
 
