@@ -28,6 +28,26 @@ Below are all of the available commands and what they do:
 
 **market-updated and thanks** market updated lets users record when they have flown to a market and updated eddb with its market state. has 5min grace period. thanks lets users thank other commanders. both awards community points. 
 
-****
+**make-bacon and distraction** make-bacon spawns a random image of bacon. Is used because beacon with an accent sounds like bacon. disaction spawns a random cute cat gif
 
+**whats-with-the-fox and whats-in-your-box** both of these are ammusement easter egg holdovers from Shoulder of Orion
+
+**box-facts** returns a random fact about boxes
+
+**add-ferry rm-ferry and departures**  This allows users to schedule and see the list of all FCs that are planning to jump soon for distant locations. Users can also subscribe to departures and get DMs whenever an FC is added.  This also has a feature where if a message id is given and the channel id the message is in is given, then boxbot will regularly post the current scheduled departures to that message in that channel. 
+
+**shopping-list**  provides the data-generated list of commodity quantities needed to build a scientific outpost
+
+**introduction**  boxbot introduces itself.
+
+**boxbot**   a full guideded walk through of all the commands and their purposes
+
+**dynamic voice channels for wings**  not a command, but if given the channel id for a template voice channel, the bot will automatically create a temporary voice channel whenever there are people in the template channel. This allows there to always be an empty open channel for a new wing to use. Unused extra channels are deleted again. All channels have onion themed names
+
+**yardsale and join-yardsale**   FC owners who have commodities they wish to put up for open sale can use join-yardsale to register to it for a specificed ammount of time.  Users wanting to find a commodity can use yardsale to search all current registered FC in yardsale for the given commodity. 
+
+**markets-last-updates**  ranks the markets in the biowaste-markets lookup based on their last update time. Useful for seeing what markets need updating most or which ones are freshest
+
+
+ 
 
