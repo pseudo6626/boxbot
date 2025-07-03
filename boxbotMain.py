@@ -48,13 +48,8 @@ GUILD_ID_NUM =9999999999999999999999999999  # Replace with your actual guild ID
 GUILD_ID = discord.Object(id=GUILD_ID_NUM) 
 BOT_SECRET="put your discord bot token here or be smart and use an env" 
 PAGE_SIZE = 10
-departures=[]
-catchTrackerOut=[]
-catchTrackerIn=[]
-catchThresh=5
-ships=[]
 calls = deque()
-as_cargo_lock = asyncio.Lock()
+
 
 
 ONION_VARIETIES = [
